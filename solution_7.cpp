@@ -1,31 +1,28 @@
 //
 // Created by Desirelife on 2019/7/29.
 //
+//
+// Created by Desirelife on 2019/7/29.
+//
 #include <iostream>
+#include <cmath>
 using namespace std;
-#define ERROR -1;
 
-int binarySearch(int arr[], int x, int low, int high);
+bool isPrime(int n);
 
 int main(){
-    int n = 0;
+    int n;
     cin >> n;
-    int test[n];
-    for (int i = 0; i < n; i++) {
-        cin >> test[i];
-    }
-    cout << binarySearch(test, 5, 0, n - 1);
+    cout << isPrime(n) << endl;
 }
 
-int binarySearch(int arr[], int x, int low, int high) {
-    while (low <= high) {
-        int mid = (low + high) / 2;
-        if (x < arr[mid])
-            high = mid - 1;
-        else if (x > arr[mid])
-            low = mid + 1;
-        else
-            return mid;
+bool isPrime(int n){
+    int temp = sqrt(n);
+    if(n == 1)  return false;
+    for(int i = 2; i <= temp; i++)
+    {
+        if(n % i == 0)    return false;
     }
-    return ERROR
+    return true;
 }
+

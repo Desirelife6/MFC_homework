@@ -56,27 +56,27 @@ include CMakeFiles/SummerHomework.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/SummerHomework.dir/flags.make
 
-CMakeFiles/SummerHomework.dir/main.cpp.obj: CMakeFiles/SummerHomework.dir/flags.make
-CMakeFiles/SummerHomework.dir/main.cpp.obj: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\CLion\CLionProjects\SummerHomework\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/SummerHomework.dir/main.cpp.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\C__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\SummerHomework.dir\main.cpp.obj -c F:\CLion\CLionProjects\SummerHomework\main.cpp
+CMakeFiles/SummerHomework.dir/solution_5.cpp.obj: CMakeFiles/SummerHomework.dir/flags.make
+CMakeFiles/SummerHomework.dir/solution_5.cpp.obj: ../solution_5.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\CLion\CLionProjects\SummerHomework\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/SummerHomework.dir/solution_5.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\C__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\SummerHomework.dir\solution_5.cpp.obj -c F:\CLion\CLionProjects\SummerHomework\solution_5.cpp
 
-CMakeFiles/SummerHomework.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SummerHomework.dir/main.cpp.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\C__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\CLion\CLionProjects\SummerHomework\main.cpp > CMakeFiles\SummerHomework.dir\main.cpp.i
+CMakeFiles/SummerHomework.dir/solution_5.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SummerHomework.dir/solution_5.cpp.i"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\C__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\CLion\CLionProjects\SummerHomework\solution_5.cpp > CMakeFiles\SummerHomework.dir\solution_5.cpp.i
 
-CMakeFiles/SummerHomework.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SummerHomework.dir/main.cpp.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\C__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\CLion\CLionProjects\SummerHomework\main.cpp -o CMakeFiles\SummerHomework.dir\main.cpp.s
+CMakeFiles/SummerHomework.dir/solution_5.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SummerHomework.dir/solution_5.cpp.s"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\C__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\CLion\CLionProjects\SummerHomework\solution_5.cpp -o CMakeFiles\SummerHomework.dir\solution_5.cpp.s
 
 # Object files for target SummerHomework
 SummerHomework_OBJECTS = \
-"CMakeFiles/SummerHomework.dir/main.cpp.obj"
+"CMakeFiles/SummerHomework.dir/solution_5.cpp.obj"
 
 # External object files for target SummerHomework
 SummerHomework_EXTERNAL_OBJECTS =
 
-SummerHomework.exe: CMakeFiles/SummerHomework.dir/main.cpp.obj
+SummerHomework.exe: CMakeFiles/SummerHomework.dir/solution_5.cpp.obj
 SummerHomework.exe: CMakeFiles/SummerHomework.dir/build.make
 SummerHomework.exe: CMakeFiles/SummerHomework.dir/linklibs.rsp
 SummerHomework.exe: CMakeFiles/SummerHomework.dir/objects1.rsp

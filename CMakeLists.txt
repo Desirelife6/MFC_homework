@@ -3,4 +3,4 @@ project(SummerHomework)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(SummerHomework main.cpp)
+add_executable(SummerHomework solution_5.cpp)

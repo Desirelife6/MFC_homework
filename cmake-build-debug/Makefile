@@ -122,32 +122,32 @@ SummerHomework/fast:
 	$(MAKE) -f CMakeFiles\SummerHomework.dir\build.make CMakeFiles/SummerHomework.dir/build
 .PHONY : SummerHomework/fast
 
-main.obj: main.cpp.obj
+solution_5.obj: solution_5.cpp.obj
 
-.PHONY : main.obj
+.PHONY : solution_5.obj
 
 # target to build an object file
-main.cpp.obj:
-	$(MAKE) -f CMakeFiles\SummerHomework.dir\build.make CMakeFiles/SummerHomework.dir/main.cpp.obj
-.PHONY : main.cpp.obj
+solution_5.cpp.obj:
+	$(MAKE) -f CMakeFiles\SummerHomework.dir\build.make CMakeFiles/SummerHomework.dir/solution_5.cpp.obj
+.PHONY : solution_5.cpp.obj
 
-main.i: main.cpp.i
+solution_5.i: solution_5.cpp.i
 
-.PHONY : main.i
+.PHONY : solution_5.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) -f CMakeFiles\SummerHomework.dir\build.make CMakeFiles/SummerHomework.dir/main.cpp.i
-.PHONY : main.cpp.i
+solution_5.cpp.i:
+	$(MAKE) -f CMakeFiles\SummerHomework.dir\build.make CMakeFiles/SummerHomework.dir/solution_5.cpp.i
+.PHONY : solution_5.cpp.i
 
-main.s: main.cpp.s
+solution_5.s: solution_5.cpp.s
 
-.PHONY : main.s
+.PHONY : solution_5.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) -f CMakeFiles\SummerHomework.dir\build.make CMakeFiles/SummerHomework.dir/main.cpp.s
-.PHONY : main.cpp.s
+solution_5.cpp.s:
+	$(MAKE) -f CMakeFiles\SummerHomework.dir\build.make CMakeFiles/SummerHomework.dir/solution_5.cpp.s
+.PHONY : solution_5.cpp.s
 
 # Help Target
 help:
@@ -158,9 +158,9 @@ help:
 	@echo ... SummerHomework
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... main.obj
-	@echo ... main.i
-	@echo ... main.s
+	@echo ... solution_5.obj
+	@echo ... solution_5.i
+	@echo ... solution_5.s
 .PHONY : help
 
 
