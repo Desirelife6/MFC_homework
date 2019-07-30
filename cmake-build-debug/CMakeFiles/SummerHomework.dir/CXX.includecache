@@ -6,7 +6,11 @@
 
 #IncludeRegexTransform: 
 
-F:/CLion/CLionProjects/SummerHomework/solution_10.cpp
+F:/CLion/CLionProjects/SummerHomework/solution_5.cpp
 iostream
+-
+string
+-
+cstring
 -
 

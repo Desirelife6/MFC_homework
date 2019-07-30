@@ -80,7 +80,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="F:/CLion/CLionProjects/SummerHomework/solution_5.cpp">
+		<Unit filename="F:/CLion/CLionProjects/SummerHomework/main.cpp">
 			<Option target="SummerHomework"/>
 		</Unit>
 		<Unit filename="F:/CLion/CLionProjects/SummerHomework/CMakeLists.txt">

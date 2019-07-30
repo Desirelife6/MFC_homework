@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/SummerHomework.dir/solution_5.cpp.obj"
+  "CMakeFiles/SummerHomework.dir/main.cpp.obj"
   "SummerHomework.pdb"
   "SummerHomework.exe"
   "SummerHomework.exe.manifest"
