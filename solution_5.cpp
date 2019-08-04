@@ -15,6 +15,11 @@ int main(){
     cout << result;
 }
 
+/**
+ * 整数部分的转换
+ * @param integerBinaryString
+ * @return
+ */
 int integerBinaryConvert(string integerBinaryString){
     int n = integerBinaryString.length();
     int weights = 1;
@@ -26,6 +31,11 @@ int integerBinaryConvert(string integerBinaryString){
     return intResult;
 }
 
+/**
+ * 小数部分的转换
+ * @param decimalBinaryString
+ * @return
+ */
 float decimalBinaryConvert(string decimalBinaryString){
     int n = decimalBinaryString.length();
     float weights = 0.5;
@@ -37,6 +47,11 @@ float decimalBinaryConvert(string decimalBinaryString){
     return decResult;
 }
 
+/**
+ * 整个数字（支持浮点数）的转换
+ * @param binaryString
+ * @return
+ */
 float binaryConvert(string binaryString) {
     string integerBinaryString;
     string decimalBinaryString;

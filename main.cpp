@@ -6,18 +6,18 @@
 using namespace std;
 #define ERROR -1;
 
-bool isPalindrome(string str);
-void selectSort(int arr[], int n);
-void bubbleSort(int arr[], int n);
-int partition(int arr[], int left, int right);  // 找基准数， 做划分
-void quickSort(int arr[], int left, int right);
-void merge(int arr[], int low, int mid, int high);
-void mergeSort(int arr[], int low, int high);
-int integerBinaryConvert(string binaryString);
-float decimalBinaryConvert(string binaryString);
-float binaryConvert(string binaryString);
-bool isPrime(int n);
-int binarySearch(int arr[], int x, int low, int high);
+bool isPalindrome(string str);      //回文串
+void selectSort(int arr[], int n);      //选择排序
+void bubbleSort(int arr[], int n);      //冒泡排序
+int partition(int arr[], int left, int right);  // 找基准数， 做划分， 用于快速排序
+void quickSort(int arr[], int left, int right);     //快速排序
+void merge(int arr[], int low, int mid, int high);      //归并操作,用于归并排序
+void mergeSort(int arr[], int low, int high);       //归并排序
+int integerBinaryConvert(string binaryString);      //整数部分二进制转换
+float decimalBinaryConvert(string binaryString);        //小数部分二进制转换
+float binaryConvert(string binaryString);       //支持浮点数的二进制转十进制
+bool isPrime(int n);    //素数判断
+int binarySearch(int arr[], int x, int low, int high);      //二分查找
 
 int main() {
     /*回文串*/
@@ -147,6 +147,7 @@ bool isPrime(int n){
 
 /**
  * 二进制转换，调用了自己写的integerBinaryConvert 和 decimalBinaryConvert 方法，详细内容在下面
+ * 支持浮点数
  */
 float binaryConvert(string binaryString) {
     string integerBinaryString;
